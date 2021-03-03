@@ -360,10 +360,10 @@ int main(int p_argc, const char** p_argv)
     std::cout << "[+] Using credentials - " << admin_username << ":" << admin_password << std::endl;
 
     // step three - create the file
-    if (!create_file(ip, winbox_port, admin_username, admin_password))
-    {
-        return EXIT_FAILURE;
-    }
+    //if (!create_file(ip, winbox_port, admin_username, admin_password))
+    //{
+    //    return EXIT_FAILURE;
+    //}
 
     std::cout << "[+] There's a light on" << std::endl;
     return EXIT_SUCCESS;
